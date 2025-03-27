@@ -4,7 +4,7 @@ import torch
 from ultralytics import YOLO  # Pastikan ultralytics sudah terinstal
 
 # Pastikan file model tersedia di lokasi yang benar
-MODEL_PATH = "best.pt"
+MODEL_PATH = "\dataset\rail-dataset.pt"
 
 # Memuat model dengan YOLO jika berasal dari Ultralytics
 try:
